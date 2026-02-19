@@ -9,6 +9,7 @@
     #include <windows.h>
     #include <GL/gl.h>
     #include <GL/glut.h>
+    #include <bits/stdc++.h>
 #else
     #include <GL/gl.h>
     #include <GL/glut.h>
