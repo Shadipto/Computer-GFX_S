@@ -1,6 +1,8 @@
+
 #include <iostream>
 #include <cstdio>
 #include <cmath>
+
 
 #ifdef __APPLE__
     #include <OpenGL/gl.h>
@@ -66,7 +68,7 @@ void display()
     // Outline
     glLineWidth(2.5f);
     glBegin(GL_LINE_LOOP);
-        glColor3f(0.45f, 0.22f, 0.05f); // Brown
+        glColor3f(0.0f, 0.0f, 0.0f); // Black
         glVertex2f(-0.55f, -0.55f);
         glVertex2f( 0.52f, -0.55f);
         glVertex2f( 0.35f, -0.78f);
