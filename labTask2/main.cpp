@@ -17,7 +17,7 @@ void display()
 
     // Left triangle land
     glColor3ub(GREEN);
-    triangle(-1, 0, -1, -1, -0.3, -1);
+    triangle(-1, 0, -1, -1, -0.3, -1); // mark
 
     // river
     glColor3ub(BLUE);
@@ -25,13 +25,13 @@ void display()
         glVertex2d(-1,0);
         glVertex2d(-.3,-1);
         glVertex2d(1,-1);
-        glVertex2d(1,-.7);
+        glVertex2d(1,-.7); // mark
         glVertex2d(.4,0);
     glEnd();
 
     // right triangle land
     glColor3ub(GREEN);
-    triangle(.4,0,1,-.7,1,0);
+    triangle(.4,0,1,-.7,1,0); // mark
 
     // boat
     glColor3ub(BROWN);
@@ -59,7 +59,7 @@ void display()
 
     // right cloud
     glColor3ub(WHITE);
-    circleFan(-.1,.7,.1);
+    circleFan(-.1,.7,.1); // mark
 
     glColor3ub(WHITE);
     circleFan(.1,.7,.18);
